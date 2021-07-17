@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Taciane da Silva Santos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title> "Profissional Que Você Precisa" </title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1> Taciane Da Silva Santos </h1>  
+            <h2>A Desenvolvedora Certa!</h2>           
+            <a id="linkLinkedin" href="https://www.linkedin.com/in/tacianesanttos/"> LinkedIn</a>
+        </div>
+        <br><br>
+ 
+        
+    </header>
+    <main>
+        <section class="section-container background-section section-one" >
+            <div>
+                <figure>
+                    <img src="/img/logo.jpg" alt="Logo">
+                </figure>                
+            </div>
+            <div>
+                <figure>
+                    <img src="https://see.fontimg.com/api/renderfont4/jEW7R/eyJyIjoiZnMiLCJoIjo4NiwidyI6MTAwMCwiZnMiOjg2LCJmZ2MiOiIjREZGQkZEIiwiYmdjIjoiI0NDRUIwQSIsInQiOjF9/Q09OVFJBVEUtTUU/batik-worldwide-personal-use.png" alt="Contrate-me"/>
+                </figure>                
+            </div>         
+        </section>               
+        <section class="section-container background-section section-two">      
+                   
+            <div class="card-container">
+                <div id="texto">
+                    <h3>Para receber meu currículo.<br>Cadastre-se:</h3>
+                </div>
+                <div id="content">
+                    <br><br>
+                    <form onsubmit="return checa_formulario(this)" id="formCadastro" action="#" method="">
+                        <input type="text" placeholder="name" id="txtNome" size="20" name="nome">
+                        <input type="text" placeholder="email" id="txtEmail" size="20" name="email">
+                        <input type="submit" value="Cadastrar"> 
+                        <button onclick="apagarStorage()">Apagar Storage</button>                      
+                        <div id="visitante"></div>
+                    </form>
+                </div>                
+            </div>            
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>   
+    <script src="/js/script.js"></script>
+</body>
+</html>
